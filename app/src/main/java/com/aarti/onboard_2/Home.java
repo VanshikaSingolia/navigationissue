@@ -45,7 +45,7 @@ public class Home extends AppCompatActivity {
         mToggle=new ActionBarDrawerToggle(this,drawerLayout,R.string.Open,R.string.Close);
         drawerLayout.addDrawerListener(mToggle);
         mToggle.syncState();
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav);
